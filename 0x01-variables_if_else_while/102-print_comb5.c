@@ -28,7 +28,10 @@ putchar(x);
 putchar(' ');
 putchar(y);
 putchar(n);
- if ((i == 57 && x == 57) && (y == 56 && n == 57) )
+if ((i == 57 && x == 57) && (y == 56 && n == 57))
+{
+}
+else
 {
 putchar(',');
 putchar(' ');
