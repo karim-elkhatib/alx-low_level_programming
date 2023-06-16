@@ -14,9 +14,5 @@ putchar(',');
 putchar(' ');
 putchar(x);
 }
-for (x = 'a'; x <= 'f'; x++)
-{
-putchar(x);
-}
 return (0);
 }
