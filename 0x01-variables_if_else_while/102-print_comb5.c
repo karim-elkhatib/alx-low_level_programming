@@ -18,7 +18,7 @@ for (y = x; y < 58; y++)
 {
 for (n = y; n < 58; n++)
 {
-  if ((i + x) == (y + n))
+if ((i + x) == (y + n))
 {
 }
 else
