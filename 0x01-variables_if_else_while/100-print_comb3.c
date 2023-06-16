@@ -8,8 +8,6 @@ int main(void)
 {
 int x = 48;
 int i = 48;
-int a = 0;
-int b = 0;
 for (i = 48; i < 58; i++)
 {
 for (x = i; x < 58; x++)
