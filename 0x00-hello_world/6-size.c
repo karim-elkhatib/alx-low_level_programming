@@ -2,7 +2,7 @@
 
 /**
 * main - Entry point
-* Description: a c program that prints the sizes od data types on x32 and x64 machines
+* Description: a c program that prints the sizes of data types on x32 & x64
 * Return: always 0 (success)
 */
 
