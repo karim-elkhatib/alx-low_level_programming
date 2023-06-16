@@ -23,7 +23,7 @@ else
 putchar(i);
 putchar(x);
 putchar(y);
-if (i != 56)
+if (i != 55)
 {
 putchar(',');
 putchar(' ');
