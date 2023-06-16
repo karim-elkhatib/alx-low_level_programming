@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main()
+{
+  int a;
+  a = 15;
+  printf("hello ALX %d\n",a);
+  return 0;
+}
+
