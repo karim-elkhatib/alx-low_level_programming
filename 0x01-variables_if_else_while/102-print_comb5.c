@@ -12,7 +12,7 @@ int y = 48;
 int n = 48;
 for (i = 48; i < 58; i++)
 {
-for (x = i; x < 58; x++)
+for (x = 48; x < 58; x++)
 {
 for (y = 48; y < 58; y++)
 {
