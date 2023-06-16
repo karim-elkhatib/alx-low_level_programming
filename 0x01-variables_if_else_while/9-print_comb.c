@@ -6,7 +6,7 @@
 */
 int main(void)
 {
-char x = 48;
+int x = 48;
 putchar(x);
 for (x = 49; x < 58; x++)
 {
