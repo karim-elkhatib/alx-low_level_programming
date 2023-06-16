@@ -14,11 +14,11 @@ for (i = 48; i < 58; i++)
 {
 for (x = i; x < 58; x++)
 {
-for (y = x; y < 58; y++)
+for (y = 48; y < 58; y++)
 {
-for (n = y; n < 58; n++)
+for (n = x; n < 58; n++)
 {
-if ((i + x) == (y + n))
+if ((i == y) && (x == n))
 {
 }
 else
