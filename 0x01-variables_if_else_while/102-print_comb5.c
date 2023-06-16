@@ -14,7 +14,7 @@ for (i = 48; i < 58; i++)
 {
 for (x = 48; x < 58; x++)
 {
-for (y = 48; y < 58; y++)
+for (y = i; y < 58; y++)
 {
 for (n = x; n < 58; n++)
 {
@@ -28,7 +28,7 @@ putchar(x);
 putchar(' ');
 putchar(y);
 putchar(n);
-if ((i == 57 && x == 57) && (y == 56 && n == 57))
+if ((i == 57 && x == 56) && (y == 57 && n == 57))
 {
 }
 else
