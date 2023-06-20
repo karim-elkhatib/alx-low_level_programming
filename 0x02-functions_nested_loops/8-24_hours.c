@@ -16,7 +16,7 @@ for (m2 = 0; m2 < 10; m2++)
 {
 for (s1 = 0; s1 < 7; s1++)
 {
-for (s2 = 0; s2 < 10; s1++)
+for (s2 = 0; s2 < 10; s2++)
 {
 _putchar(m1 + '0');
 _putchar(m2 + '0');
