@@ -14,9 +14,7 @@ for (x = 0; x < 10; x++)
 for (y = 0; y < 10; y++)
 {
 mul = x * y;
-_putchar('0' + mul);
-_putchar(',');
-_putchar(' ');
+ printf("%d,\t", mul); 
 if (y == 9)
 _putchar('\n');
 }
