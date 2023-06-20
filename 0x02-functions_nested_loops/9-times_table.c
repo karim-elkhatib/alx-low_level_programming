@@ -16,8 +16,10 @@ for (y = 0; y < 10; y++)
 mul = x * y;
 printf("%d", mul);
 if (y < 9)
+{
 _putchar(',');
 _putchar(' ');
+}
 else
 _putchar('\n');
 }
