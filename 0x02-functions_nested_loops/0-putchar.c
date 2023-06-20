@@ -1,11 +1,18 @@
 #include <stdio.h>
+#include "main.h"
 /**
 * main - Entry point
-* Description: Alpha printing c program
+* Description: printing word c program
 * Return: always 0 (success)
 */
 int main(void)
 {
-printf("_putchar\n");
+char word[] = "_putchar";
+int i;
+for (i = 0; i < 8; ch++)
+{
+_putchar(word[i]);
+}
+_putchar("\n");
 return (0);
 }
