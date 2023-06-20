@@ -2,7 +2,7 @@
 /**
 * print_sign - utility function
 * Description: a function that checks if the alpha is U or L
-* @c: describe the parameter: is a character input for the func
+* @n: describe the parameter: is a character input for the func
 * Return: 1 if the 'c' lowercase & 0 otherwise
 */
 int print_sign(int n)
