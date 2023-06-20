@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
 * print_alphabet_x10 - utility function
 * Description: a function that prints Alpha X10
@@ -12,18 +12,8 @@ for (i = 0; i < 10; i++)
 {
 for (x = 97; x <= 122; x++)
 {
-putchar(x);
+-putchar(x);
 }
-putchar('\n');
+_putchar(10);
 }
-}
-/**
-* main - Entry point
-* Description: Alpha printing through a func X10 times
-* Return: always 0 (success)
-*/
-int main(void)
-{
-print_alphabet_x10();
-return (0);
 }
