@@ -12,12 +12,14 @@ int m1;
 int m2;
 for (m1 = 0; m1 < 3; m1++)
 {
-for (m2 = 0; m2 < 4; m2++)
+for (m2 = 0; m2 < 10; m2++)
 {
 for (s1 = 0; s1 < 6; s1++)
 {
 for (s2 = 0; s2 < 10; s2++)
 {
+if (m1 == 2 && m2 == 4);
+break;
 _putchar(m1 + '0');
 _putchar(m2 + '0');
 _putchar(':');
