@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-* print_alphabet - utility function
+* print_alphabet_x10 - utility function
 * Description: a function that prints Alpha X10
 * Return: it does not return any thing
 */
