@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
 * _isalpha - utility function
 * Description: a function that checks if the char is alpha or not
@@ -16,23 +16,3 @@ else
 return (0);
 }
 }
-/**
-* main - Entry point
-* Description: checks if the char is alpha or not
-* Return: always 0 (success)
-*/
-int main(void)
-{
-int r;
-r = _isalpha('H');
-putchar(r + '0');
-r = _isalpha('o');
-putchar(r + '0');
-r = _isalpha(108);
-putchar(r + '0');
-r = _isalpha(';');
-putchar(r + '0');
-putchar('\n');
-return (0);
-}
-
