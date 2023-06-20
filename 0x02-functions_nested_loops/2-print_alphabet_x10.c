@@ -12,7 +12,7 @@ for (i = 0; i < 10; i++)
 {
 for (x = 97; x <= 122; x++)
 {
--putchar(x);
+_putchar(x);
 }
 _putchar(10);
 }
