@@ -14,9 +14,11 @@ for (x = 0; x < 10; x++)
 for (y = 0; y < 10; y++)
 {
 mul = x * y;
-printf("%d,\t", mul); 
+printf("%d", mul);
 if (y == 9)
 _putchar('\n');
+else
+_putchar(',');
 }
 }
 }
