@@ -21,8 +21,8 @@ for (s2 = 0; s2 < 10; s1++)
 _putchar(m1 + '0');
 _putchar(m2 + '0');
 _putchar(':');
-_putchar(s1 + '0');
-_putchar(s2 + '0');
+_putchar(m3 + '0');
+_putchar(m4 + '0');
 }
 }
 }
