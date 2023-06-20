@@ -1,15 +1,38 @@
 #include "main.h"
 
-int print_last_digit(int n)
+void main(void)
 {
-n = n - ((n / 10) * 10);
-return (n);
+int s1;
+int s2;
+int m1;
+int m2;
+for (m1 = 0; m1 < 3; m1++)
+{
+for (m2 = 0; m2 < 10; m2++)
+{
+for (s1 = 0; s1 < 6; s1++)
+{
+for (s2 = 0; s2 < 10; s2++)
+{
+putchar(m1 + '0');
+putchar(m2 + '0');
+putchar(':');
+putchar(s1 + '0');
+putchar(s2 + '0');
+putchar('\n');
+}
+}
+}
+}
 }
 
+
+/*
 int main (void)
 {
-  int i = -15;
-  print_last_digit(-12516);
+  //int i = -15;
+  jack_bauer();
   //printf ("%d\n",i);
   //printf("%d",i);
 }
+*/
