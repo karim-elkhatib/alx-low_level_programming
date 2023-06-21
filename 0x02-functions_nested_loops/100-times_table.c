@@ -21,11 +21,15 @@ _putchar(',');
 _putchar(' ');
 mul = x * y;
 if (mul <= 9)
+{
 _putchar(' ');
 _putchar(' ');
+}
 else if (mul > 9 && mul <= 99)
+{
 _putchar(' ');
 _putchar(mul / 10 + '0');
+}
 else
 {
 _putchar(mul / 100 + '0');
