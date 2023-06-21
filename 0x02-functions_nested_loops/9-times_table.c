@@ -11,7 +11,8 @@ int y = 0;
 int mul = 0;
 for (x = 0; x < 10; x++)
 {
-for (y = 0; y < 10; y++)
+_putchar('0');
+for (y = 1; y < 10; y++)
 {
 _putchar(',');
 _putchar(' ');
