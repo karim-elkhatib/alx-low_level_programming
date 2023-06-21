@@ -1,23 +1,5 @@
 #include "main.h"
 /**
-* numLength - utility functionentry point
-* Description: Natural Num. proj
-* @num : input
-* Return: 0 in success & 1 error
-*/
-int numLength(int num)
-{
-int l = 0;
-if (!num)
-return (1);
-while (num)
-{
-num = num /10;
-l += 1;
-}
-return (l);
-}
-/**
 * main - utility functionentry point
 * Description: Natural Num. proj
 * Return: 0 in success & 1 error
