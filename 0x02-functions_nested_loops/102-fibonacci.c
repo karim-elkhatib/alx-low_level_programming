@@ -13,7 +13,7 @@ unsigned long sum = 0;
 for (i = 0; i < 50; i++)
 {
 sum = fib + fib2;
-printf("%lu, ", sum);
+printf("%lu", sum);
 fib = fib2;
 fib2 = sum;
 if (i == 49)
