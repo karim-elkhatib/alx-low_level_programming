@@ -8,11 +8,13 @@
 void print_to_98(int n)
 {
 int i = 0;
-for (i = n; i < 99; i++)
+_putchar('0' + n);
+for (i = (n + 1); i < 99; i++)
 {
+_putchar(',');
+_putchar(' ');
 if (i <= 9)
 _putchar(i / 10 + '0');
 _putchar(i % 10 + '0');
-_putchar('\n');
 }
 }
