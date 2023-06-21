@@ -2,6 +2,7 @@
 /**
 * print_times_table - utility function
 * Description: a function that checks if the alpha is U or L
+* @n : the func input
 * Return: 1 if the 'c' lowercase & 0 otherwise
 */
 void print_times_table(int n)
