@@ -11,17 +11,18 @@ int y = 0;
 int mul = 0;
 for (x = 0; x < 10; x++)
 {
+_putchar('0');
 for (y = 0; y < 10; y++)
-{
-mul = x * y;
- _putchar('0' + mul);
-if (y < 9)
 {
 _putchar(',');
 _putchar(' ');
+mul = x * y;
+if (y <= 9)
+_putchar(' ');
+ else
+_putchar(mul / 10 + '0');
+_putchar(mul % 10 + '0');
 }
-else
-_putchar('\n');
-}
+_putchar('0');
 }
 }
