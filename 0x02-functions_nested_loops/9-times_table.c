@@ -17,7 +17,7 @@ for (y = 0; y < 10; y++)
 _putchar(',');
 _putchar(' ');
 mul = x * y;
-if (y <= 9)
+if (mul <= 9)
 _putchar(' ');
 else
 _putchar(mul / 10 + '0');
