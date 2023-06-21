@@ -7,8 +7,8 @@
 int main(void)
 {
 int i = 0;
-int fib = 0;
-int fib2 = 1;
+unsigned long fib = 0;
+unsigned long fib2 = 1;
 unsigned long sum = 0;
 for (i = 0; i < 50; i++)
 {
