@@ -6,6 +6,8 @@
 */
 void print_times_table(int n)
 {
+if (n >= 0 && n < 15)
+{
 int x = 0;
 int y = 0;
 int mul = 0;
@@ -19,11 +21,14 @@ _putchar(' ');
 mul = x * y;
 if (mul <= 9)
 _putchar(' ');
-else
+else if (mul > 9 && mul <= 99)
 _putchar(mul / 10 + '0');
+else
+_putchar(mul / 100 + '0');
 _putchar(mul % 10 + '0');
 }
 _putchar('\n');
+}
 }
 }
 
