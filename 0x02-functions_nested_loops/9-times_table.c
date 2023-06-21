@@ -19,7 +19,7 @@ _putchar(' ');
 mul = x * y;
 if (y <= 9)
 _putchar(' ');
- else
+else
 _putchar(mul / 10 + '0');
 _putchar(mul % 10 + '0');
 }
