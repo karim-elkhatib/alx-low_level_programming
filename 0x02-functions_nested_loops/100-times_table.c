@@ -25,7 +25,10 @@ _putchar(' ');
 else if (mul > 9 && mul <= 99)
 _putchar(mul / 10 + '0');
 else
+{
 _putchar(mul / 100 + '0');
+_putchar(mul / 10 + '0');
+}
 _putchar(mul % 10 + '0');
 }
 _putchar('\n');
