@@ -13,6 +13,8 @@ if (size <= 0)
 {
 _putchar('\n');
 }
+else
+{
 for (x = 1; x <= size; x++)
 {
 for (j = (size - 1); j >= x; j--)
@@ -22,5 +24,6 @@ _putchar(' ');
 for (i = 1; i <= x; i++)
 _putchar('#');
 _putchar('\n');
+}
 }
 }
