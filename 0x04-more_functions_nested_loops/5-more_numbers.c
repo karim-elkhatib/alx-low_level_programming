@@ -7,19 +7,24 @@
 
 void more_numbers(void)
 {
-int i = 48;
-while (i >= 48 && i < 62)
+int i = 0;
+int x = 0;
+for (x = 0; x < 10; x++)
 {
-if (i < 58)
+i = 0;
+while (i >= 0 && i < 15)
 {
-_putchar(i);
+if (i < 10)
+{
+_putchar(i + '0');
 }
 else
 {
-_putchar(i / 10);
-_putchar(i % 10);
+_putchar((i / 10) + '0');
+_putchar((i % 10) + '0');
 }
 i++;
 }
 _putchar('\n');
+}
 }

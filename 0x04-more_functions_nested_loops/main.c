@@ -1,11 +1,11 @@
 #include "main.h"
-#include "4-print_most_numbers.c"
+#include "5-more_numbers.c"
 #include "_putchar.c"
 
 
 int main (void)
 {
-    print_most_numbers();
+  more_numbers();
     return (0);
 
 }
