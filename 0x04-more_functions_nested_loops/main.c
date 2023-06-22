@@ -1,13 +1,20 @@
 #include "main.h"
-#include "1-isdigit.c"
+//#include "3-print_numbers.c"
+#include "_putchar.c"
+
+void print_numbers(void)
+{
+int i = 48;
+while (i >= 48 && i <= 58)
+{
+  _putchar(i);
+i++;
+}
+_putchar('\n');
+}
 
 int main (void)
 {
-  char c;
-
-    c = '0';
-    printf("%c: %d\n", c, _isdigit(c));
-    c = 'a';
-    printf("%c: %d\n", c, _isdigit(c));
+   print_numbers();
     return (0);
 }
