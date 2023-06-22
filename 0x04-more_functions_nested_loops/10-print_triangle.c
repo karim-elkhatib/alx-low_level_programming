@@ -17,12 +17,13 @@ else
 {
 for (x = 1; x <= size; x++)
 {
-for (j = (size - 1); j >= x; j--)
+for (j = 1; j <= size; j--)
 {
+if ((x + j) <= size)
 _putchar(' ');
-}
-for (i = 1; i <= x; i++)
+else
 _putchar('#');
+}
 _putchar('\n');
 }
 }
