@@ -16,13 +16,12 @@ while ((i >= 0) && (i < 15))
 {
 if (i < 10)
 {
-_putchar(i + '0');
 }
 else
 {
 _putchar((i / 10) + '0');
-_putchar((i % 10) + '0');
 }
+_putchar((i % 10) + '0');
 ++i;
 }
 _putchar('\n');
