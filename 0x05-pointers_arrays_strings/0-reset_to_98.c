@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- *print_square - is a func
- *@*n: an input
+ *reset_to_98 - is a func
+ *@n: an input
  *Return: no return
 */
 void reset_to_98(int *n)
