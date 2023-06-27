@@ -6,7 +6,7 @@
  *
  * Return: Always 0.
  */
-int main(void)
+/*int main(void)
 {
     int nb;
 
@@ -27,4 +27,19 @@ int main(void)
     nb = _atoi("---++++ -++ Sui - te -   402 #cisfun :)");
     printf("%d\n", nb);
     return (0);
+}
+*/
+
+/**
+ * main - check the code for Holberton School students.
+ *
+ * Return: Always 0.
+ */
+int main(void)
+{
+	int n;
+
+	n = _atoi("-2147483648");
+	printf("%d\n", n);
+	return (0);
 }
