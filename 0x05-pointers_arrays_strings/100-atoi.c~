@@ -1,0 +1,33 @@
+#include "main.h"
+
+/**
+ *_atoi - is a func
+ *@s: an input
+ *Return: no return
+*/
+int _atoi(char *s)
+{
+    int i = 0, num = 0, total = 0, len = 0, sign = 1;
+    for (i = 0; *(s + i) != '\0'; i++)
+    {
+        if (s[i] >= 48 && s[i] <= 57)
+        {
+        len++;
+        }
+    }
+    for (i = 0; *(s + i) != '\0'; i++)
+    {
+        if (s[i] >= 48 && s[i] <= 57)
+        {
+	  num = (s[i] - '0') * (10 ^ len));
+            total = total + num;
+            len--;
+        }
+        else if (s[i] == '-')
+        {
+            sign = -1;
+        }
+        else
+    }
+    return (sign * total);
+}
