@@ -1,0 +1,18 @@
+#include "main.h"
+
+/**
+ *_strcmp - is a func
+ *@s1: an input
+ *@s2: an input
+ *Return: no return
+*/
+void reverse_array(int *a, int n)
+{
+    int *tmp, i = 0, y = n;
+
+    for (i = 0; i < n; i++)
+    {
+        tmp[y] = a[i];
+        y--;
+    }
+}
