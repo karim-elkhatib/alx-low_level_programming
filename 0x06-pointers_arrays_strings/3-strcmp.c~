@@ -1,0 +1,24 @@
+#include "main.h"
+
+/**
+ *_strcmp - is a func
+ *@s1: an input
+ *@s2: an input
+ *Return: no return
+*/
+int _strcmp(char *s1, char *s2)
+{
+    int i = 0, z = 0, cmp = 0;
+    while (s1[z] != '\0' && s2[z] != '\0')
+    {
+        if (s1[z] == s2[z])
+        z++;
+        else
+        {
+        cmp = s1[z] - s2[z];
+        break;
+        }
+    }
+    
+    return (cmp);
+}
