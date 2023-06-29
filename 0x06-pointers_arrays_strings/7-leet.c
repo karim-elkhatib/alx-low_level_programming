@@ -7,8 +7,8 @@
 */
 char *leet(char *str)
 {
-int i = 0;
-char value[] = {'4', '3', '0', '7', '1'};
+unsigned int i = 0;
+char value[] = {4, 3, 0, 7, 1};
 char key[] = {'A', 'E', 'O', 'T', 'L'};
 
 while (*str)
@@ -17,10 +17,11 @@ for (i = 0; i < sizeof(key) / sizeof(char); i++)
 {
 if (*str == key[i] || *str == key[i] + 32)
 {
-*str = value[i];
+*str = 48 + value[i];
 }
-str++;
+
 }
+ str++;
 }
 return (str);
 }
