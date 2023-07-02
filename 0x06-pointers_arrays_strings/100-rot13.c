@@ -6,7 +6,7 @@
  *Return: return c
  */
 char _isalpha(char x)
-{ 
+{
 return ((x >= 'a' && x <= 'z') || (x >= 'A' && x <= 'Z'));
 }
 
@@ -17,14 +17,7 @@ return ((x >= 'a' && x <= 'z') || (x >= 'A' && x <= 'Z'));
  */
 char fistHalf(char x)
 {
-    int i = 0, check = 1;
-    char a[] ="abcdefghijklmABCDEFGHIJKLM"; 
-    while(x != a[i] && a[i] != '\0')
-    {
-        check = 0;
-        i++;
-    }
-return (check);
+return ((x <= 'm' && x >= 'a') || (x <= 'M' && x >= 'A'));
 }
 
 /**
