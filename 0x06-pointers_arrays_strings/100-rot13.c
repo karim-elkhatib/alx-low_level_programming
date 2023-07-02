@@ -28,18 +28,19 @@ return ((x <= 'm' && x >= 'a') || (x <= 'M' && x >= 'A'));
 char *rot13(char *c)
 {
 int i = 0;
+char temp = 0;
 for (i = 0; c[i] != '\0'; i++)
 {
+temp = c[i];
 if (_isalpha(c[i]) && fistHalf(c[i]))
-c[i] += 13;
-else
-{
-while (_isalpha(c[i]))
+c[i] += 26;
+
+while (_isalpha(temp))
 {
 c[i] -= 13;
 break;
 }
-}
+
 }
 return (c);
 }
