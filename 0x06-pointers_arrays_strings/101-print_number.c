@@ -1,6 +1,22 @@
 #include "main.h"
 
 /**
+ *_numrev - is a func
+ *@n: an input
+ *Return: no return
+ */
+int _numrev(int n)
+{
+int t = 0;
+while (n != 0)
+{
+t = (t * 10) + (n % 10);
+n = n / 10;
+}
+return (t);
+}
+
+/**
  *print_number - is a func
  *@n: an input
  *Return: no return
@@ -17,13 +33,9 @@ _putchar('0');
 else if (n < 0)
 {
 n = n * -1;
-while(n != 0)
-{
-t = (t * 10) + (n % 10);
-n = n / 10; 
-}
+t = _numrev(n);
 _putchar('-');
-while(t != 0)
+while (t != 0)
 {
 _putchar((t % 10) + '0');
 t = t / 10;
@@ -37,12 +49,8 @@ most = most / 10;
 /*positive printing*/
 else
 {
-while(n != 0)
-{
-t = (t * 10) + (n % 10);
-n = n / 10; 
-}
-while(t != 0)
+t = _numrev(n);
+while (t != 0)
 {
 _putchar((t % 10) + '0');
 t = t / 10;
