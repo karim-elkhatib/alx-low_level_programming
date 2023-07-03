@@ -19,5 +19,7 @@ break;
 }
 i++;
 }
+if (*(s + i) == '\0')
+s = NULL;
 return (s);
 }
