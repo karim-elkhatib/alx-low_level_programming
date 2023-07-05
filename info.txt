@@ -1,4 +1,4 @@
-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
+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
 
 git config credential.helper store                              #permemant
 git config --global credential.helper cache                     #temp for 15min
