@@ -2,7 +2,7 @@
 
 /**
 *_puts_recursion - is a function
-*@s: is argument
+*@s: is an argument
 *Return: none
 */
 
