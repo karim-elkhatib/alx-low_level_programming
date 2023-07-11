@@ -18,7 +18,7 @@ char *A;
 unsigned int i = 0, size = 0;
 while (*(str + size) != '\0')
 size++;
-A = (char *)(malloc(sizeof(char) * size));
+A = (char *)(malloc(sizeof(char) * (size + 1)));
 while (i < size)
 {
 *(A + i) = *(str + i);
