@@ -36,6 +36,7 @@ else
 printf("%s%s ", str, separator);
 }
 }
+printf("\n");
 va_end(args);
 }
 }

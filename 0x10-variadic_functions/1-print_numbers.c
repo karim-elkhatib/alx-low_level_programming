@@ -26,6 +26,7 @@ printf("%d", x);
 else
 printf("%d%s ", x, separator);
 }
+printf("\n");
 va_end(args);
 }
 }
